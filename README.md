@@ -24,3 +24,7 @@ gulp test - TODO
 gulp serve - TODO
 gulp bundle - TODO
 gulp package-solution - TODO
+
+Screen-Shot of final product from my workbench - custom Task List web part
+
+![Final Screen of custom web part for task list](https://github.com/devoooo4u/spfx-task-list-web-part/blob/master/src/webparts/images/Capture.PNG?raw=true "Custom web part -task list")
