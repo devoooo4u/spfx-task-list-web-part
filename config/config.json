@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "task-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/taskList/TaskListWebPart.js",
+          "manifest": "./src/webparts/taskList/TaskListWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TaskListWebPartStrings": "lib/webparts/taskList/loc/{locale}.js"
+  }
+}

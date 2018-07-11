@@ -1,0 +1,42 @@
+<div>
+  <!-- <p><span>ListID: <label data-bind="text:selectedList"/></span></p>
+  <span>ViewID: <label data-bind="text:selectedView"/></span> -->
+
+  <div id="ListItems">
+    <div class="container-fluid">
+      <div class="row row-no-padding">
+        <div id="leftContent">
+          <div class="col-inner-left-wrapper">
+            <span data-bind="attr:{id:'span'+tblViewName()}">Please select a task list from edit web part properties</span>
+            <div class="ms-webpart-chrome-title">
+              <span class="ms-webpart-titleText" data-bind="text: viewName">Tasks</span>
+            </div>
+            <div class="ms-WPBorder ms-WPBackground-shade feature-block">
+              <div class="col-content-inner">
+                <table data-bind="attr:{id:'tbl'+tblViewName()}" style="width:100%" class="display">
+                  <thead>
+                    <tr data-bind="foreach: listViewHeaders">
+                      <th><label data-bind="text: Title"></label></th>
+                    </tr>
+                  </thead>
+                  <tbody data-bind="foreach: taskListItems">
+                    <tr data-bind="foreach: $data">
+                        <td><a data-bind="text: value, attr: {href: url, title: value}"></a></td>
+                    </tr>
+                  </tbody>
+                  <tbody data-bind="if: !taskListItems().length">
+                      <tr>
+                          <td colspan="10" class="dataTables_empty">No Tasks Found.</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <div class="clearfix"></div>
+                <br/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+

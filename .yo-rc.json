@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "spfx-task-list-web-part",
+    "libraryId": "97f6e2fc-76ea-4b76-84dd-af87f954e248",
+    "environment": "spo"
+  }
+}

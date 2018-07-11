@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-task-list-web-part-client-side-solution",
+    "id": "97f6e2fc-76ea-4b76-84dd-af87f954e248",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-task-list-web-part.sppkg"
+  }
+}
