@@ -5,10 +5,11 @@ This is where you include your WebPart documentation.
 ### Building the code
 
 ```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
+1. Clone the repository
+2. run npm install
+3. run npm i @microsoft/sp-http@v1.4.1
+4. run npm dedupe
+5. And finally, run gulp-serve
 ```
 
 This package produces the following:
