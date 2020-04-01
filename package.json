@@ -23,7 +23,7 @@
     "datatables.net-responsive": "^2.2.0",
     "dropzone": "^5.2.0",
     "jquery": "^3.2.1",
-    "knockout": "3.4.0",
+    "knockout": "3.5.1",
     "sp-pnp-js": "^3.0.2"
   },
   "devDependencies": {
